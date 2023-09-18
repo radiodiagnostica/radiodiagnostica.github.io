@@ -36,6 +36,32 @@
                     <option value="partSolid">Parzialmente solido</option>
                 </select>
             </div>
+
+            <!-- <div class="mb-3">
+                <select class="form-select" id="lungLobePicker">
+                    <option selected>Lobo</option>
+                    <option value="rul">Superiore destro</option>
+                    <option value="lul">Superiore sinistro</option>
+                    <option value="rll">Inferiore destro</option>
+                    <option value="lll">Inferiore sinistro</option>
+                    <option value="ml">Medio</option>
+                    <option value="lingula">Lingula</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <select class="form-select" id="lobeSegmentPicker">
+                    <option selected>Segmento</option>
+                    <option value="ad">Apico-dorsale</option>
+                    <option value="apical">Apicale</option>
+                    <option value="anterior">Anteriore</option>
+                    <option value="dorsal">Dorsale</option>
+                    <option value="medial">Mediale</option>
+                    <option value="lateral">Lateral</option>
+                    <option value="inferior">Inferiore</option>
+                    <option value="superior">Superiore</option>
+                </select>
+            </div> -->
             
             <div class="mb-3">
                 <label for="longAxisInput" class="form-label">Asse lungo</label>
@@ -48,10 +74,15 @@
                 <input type="number" class="form-control" id="shortAxisInput" aria-describedby="shortAxisHelp" placeholder="Dimensione in millimetri">
                 <div id="shortAxisHelp" class="form-text text-muted">Diametro minore del nodulo in millimetri.</div>
             </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="multipleNodulesCheck" aria-describedby="multipleNodulesHelp">
+                <label class="form-check-label" for="multipleNodulesCheck">Noduli multipli</label>
+            </div>
             
             <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="riskFactorsCheck" aria-describedby="riskFactorsHelp">
-                <label class="form-check-label" for="riskFactorsCheck">Paziente a rischio</label>
+                <label class="form-check-label" for="riskFactorsCheck">Fattori di rischio</label>
                 <div id="riskFactorsHelp" class="form-text text-muted">Margini spiculati, sede apicale, presenza di enfisema/fibrosi, familiarità, etnia non caucasica, esposizione a fumo o altri cancerogeni.</div>
             </div>
 

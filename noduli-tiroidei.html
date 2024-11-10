@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noduli tiroidei - Radiodiagnostica</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Radiodiagnostica</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noduli-polmonari.html">Noduli polmonari</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="noduli-tiroidei.html">Noduli tiroidei</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="mb-4">Valutazione di noduli tiroidei</h1>
+        <form id="tiRadsForm">
+            <div class="mb-3">
+                <label class="form-label">Composizione</label>
+                <select class="form-select" id="composition">
+                    <option value="0">Cistico o quasi completamente cistico</option>
+                    <option value="0">Spongiforme</option>
+                    <option value="1">Misto cistico-solido</option>
+                    <option value="2">Solido o quasi completamente solido</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Ecogenicità</label>
+                <select class="form-select" id="echogenicity">
+                    <option value="0">Anecogeno</option>
+                    <option value="1">Iperecogeno o isoecogeno</option>
+                    <option value="2">Ipoecogeno</option>
+                    <option value="3">Molto ipoecogeno</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Forma</label>
+                <select class="form-select" id="shape">
+                    <option value="0">Più largo che alto</option>
+                    <option value="3">Più alto che largo</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Margini</label>
+                <select class="form-select" id="margins">
+                    <option value="0">Liscio</option>
+                    <option value="0">Mal definito</option>
+                    <option value="2">Lobulato o irregolare</option>
+                    <option value="3">Estensione extra-tiroidea</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Foci ecogeni</label>
+                <select class="form-select" id="echoFoci">
+                    <option value="0">Nessuno o grandi artefatti a coda di cometa</option>
+                    <option value="1">Macrocalcificazioni</option>
+                    <option value="2">Calcificazioni periferiche (a guscio)</option>
+                    <option value="3">Foci ecogeni puntiformi</option>
+                </select>
+            </div>
+
+            <div class="d-grid mt-4">
+                <button type="button" id="resultButton" class="btn btn-secondary">In attesa dei dati</button>
+            </div>
+        </form>
+    </div>
+        
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('tiRadsForm');
+            const resultButton = document.getElementById('resultButton');
+            const inputs = form.querySelectorAll('select, input');
+            
+            inputs.forEach(input => {
+                input.addEventListener('input', calculateTIRADS);
+            });
+            
+            function updateButtonState() {
+                const allFilled = Array.from(inputs).every(input => input.value !== '');
+
+                if (!allFilled) {
+                    resultButton.textContent = 'In attesa dei dati';
+                    resultButton.className = 'btn btn-secondary';
+                }
+            }
+            
+            function calculateTIRADS() {
+                updateButtonState();
+
+                const composition = parseInt(document.getElementById('composition').value);
+                const echogenicity = parseInt(document.getElementById('echogenicity').value);
+                const shape = parseInt(document.getElementById('shape').value);
+                const margins = parseInt(document.getElementById('margins').value);
+                const echoFoci = parseInt(document.getElementById('echoFoci').value);
+                
+                const score = composition + echogenicity + shape + margins + echoFoci;
+                let tiRads, recommendation, buttonClass;
+                
+                if (score === 0) {
+                    tiRads = 'TR1';
+                    recommendation = 'Benigno. Nessun FNA.';
+                    buttonClass = 'btn-success';
+                } else if (score === 2) {
+                    tiRads = 'TR2';
+                    recommendation = 'Non sospetto. Nessun FNA.';
+                    buttonClass = 'btn-info';
+                } else if (score === 3) {
+                    tiRads = 'TR3';
+                    recommendation = 'Sospetto basso. FNA se ≥ 2.5 cm. Follow-up se ≥ 1.5 cm.';
+                    buttonClass = 'btn-warning';
+                } else if (score >= 4 && score <= 6) {
+                    tiRads = 'TR4';
+                    recommendation = 'Sospetto moderato. FNA se ≥ 1.5 cm. Follow-up se ≥ 1 cm.';
+                    buttonClass = 'btn-warning';
+                } else if (score >= 7) {
+                    tiRads = 'TR5';
+                    recommendation = 'Sospetto alto. FNA se ≥ 1 cm. Follow-up se ≥ 0.5 cm.';
+                    buttonClass = 'btn-danger';
+                }
+                
+                resultButton.textContent = `${tiRads}: ${recommendation}`;
+                resultButton.className = `btn ${buttonClass}`;
+            }
+            
+            // Initial button state update
+            calculateTIRADS()
+        });
+    </script>
+</body>
+</html>

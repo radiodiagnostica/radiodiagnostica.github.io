@@ -99,8 +99,19 @@
                     exam.scenarios.forEach(scenario => {
                         const scenarioCard = document.createElement('div');
                         scenarioCard.className = 'col-md-4';
+                        
+                        // Map urgency to Bootstrap background classes
+                        const urgencyClassMap = {
+                            'U': 'bg-danger text-white',
+                            'B': 'bg-warning text-dark',
+                            'D': 'bg-success text-white',
+                            'P': 'bg-info text-white'
+                        };
+                        
+                        const urgencyClass = urgencyClassMap[scenario.urgency] || '';
+
                         scenarioCard.innerHTML = `
-                            <div class="card scenario-card">
+                            <div class="card scenario-card ${urgencyClass}">
                                 <div class="card-body">
                                     <h5 class="card-title">${scenario.description}</h5>
                                     <p class="card-text">

@@ -1,0 +1,288 @@
+{
+    "computedTomographyExaminations": [
+        {
+            "code": "87.03",
+            "type": "Computed Tomography",
+            "title": {
+                "long": "Brain Computed Tomography",
+                "short": "CT BRAIN"
+            },
+            "color": "#0000FF",
+            "systemImage": "helm",
+            "details": "",
+            "locations": ["brain"],
+            "contrastModes": ["without"],
+            "scenarios": [
+                {
+                    "urgency": "urgent",
+                    "description": "Sospetti segni e/o sintomi di TIA, verificatosi da oltre 48h in paziente a basso rischio di recidiva"
+                },
+                {
+                    "urgency": "basic",
+                    "description": "Sospetto ematoma sottodurale cronico o idrocefalo normoteso"
+                },
+                {
+                    "urgency": "diagnostic",
+                    "description": "Sospetta demenza vascolare"
+                },
+                {
+                    "urgency": "diagnostic",
+                    "description": "Vertigini non di pertinenza otorino-laringoiatrica"
+                }
+            ],
+            "information": "La tomografia computerizzata (TC) è una tecnica diagnostica che utilizza radiazioni ionizzanti per estrarre immagini dal corpo umano...",
+            "risks": "I raggi X (radiazioni ionizzanti) permettono di studiare diverse strutture anatomiche non visibili dall’esterno...",
+            "preparation": "Preparazione e modulistica da portare:\n• Richiesta del Medico Specialista o del Medico Curante...",
+            "papers": [
+                {
+                    "name": "Informativa",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-tc/?wpdmdl=967"
+                }
+            ]
+        },
+        {
+            "code": "87.03.1",
+            "type": "Computed Tomography",
+            "title": {
+                "long": "Contrast Enhanced Brain Computed Tomography",
+                "short": "CE CT BRAIN"
+            },
+            "color": "#0000FF",
+            "systemImage": "helm",
+            "details": "",
+            "locations": ["brain"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "urgent",
+                    "description": "Sospetta lesione espansiva intracranica in paziente clinicamente sintomatico"
+                },
+                {
+                    "urgency": "diagnostic",
+                    "description": "Cefalea semplice persistente con esame neurologico negativo"
+                },
+                {
+                    "urgency": "diagnostic",
+                    "description": "Demenza o deterioramento mentale a lenta evoluzione"
+                },
+                {
+                    "urgency": "diagnostic",
+                    "description": "Patologia dell'orecchio medio (otiti croniche e colesteatomi)"
+                }
+            ],
+            "information": "La tomografia computerizzata (TC) è una tecnica diagnostica che utilizza radiazioni ionizzanti per estrarre immagini dal corpo umano...",
+            "risks": "I raggi X (radiazioni ionizzanti) permettono di studiare diverse strutture anatomiche non visibili dall’esterno...",
+            "preparation": "Preparazione e modulistica da portare:\n• Richiesta del Medico Specialista o del Medico Curante...",
+            "papers": [
+                {
+                    "name": "Informativa",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-tc/?wpdmdl=967"
+                },
+                {
+                    "name": "Contrast Medium Questionnaire",
+                    "url": "https://www.maggioreosp.novara.it/download/questionario-tc-mdc/?wpdmdl=968"
+                },
+                {
+                    "name": "Allergic Patient Form",
+                    "url": "https://www.maggioreosp.novara.it/download/modulo-paziente-allergico/?wpdmdl=996"
+                }
+            ]
+        },
+        {
+            "code": "88.01.06",
+            "type": "Computed Tomography",
+            "title": {
+                "long": "Full Abdominal Computed Tomography",
+                "short": "CT FULL ABD"
+            },
+            "color": "#0000FF",
+            "systemImage": "helm",
+            "details": "Full abdominal CT examination.",
+            "locations": ["fullAbdomen"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "basic",
+                    "description": "Clinical/strumental (ultrasound) evidence of abdomino-pelvic oncologic pathology"
+                },
+                {
+                    "urgency": "basic",
+                    "description": "Primo riscontro ecografico di aneurisma dell’aorta addominale > 4 cm"
+                },
+                {
+                    "urgency": "basic",
+                    "description": "Riscontro a seguito di follow-up ecografico di aumento > 1 cm di diametro di aneurisma dell’aorta addominale"
+                },
+                {
+                    "urgency": "basic",
+                    "description": "Caratterizzazione di lesioni focali al fegato, dopo ecografia non conclusiva"
+                },
+                {
+                    "urgency": "diagnostic",
+                    "description": "Sospetta surrenopatia endocrina con ecografia non conclusiva"
+                },
+                {
+                    "urgency": "diagnostic",
+                    "description": "Sospetta pancreatite cronica"
+                },
+                {
+                    "urgency": "diagnostic",
+                    "description": "Lesioni focali al fegato con diagnosi ecografica verosimilmente benigna ma non conclusiva"
+                }
+            ],
+            "information": "La tomografia computerizzata (TC) è una tecnica diagnostica che utilizza radiazioni ionizzanti per estrarre immagini dal corpo umano...",
+            "risks": "I raggi X (radiazioni ionizzanti) permettono di studiare diverse strutture anatomiche non visibili dall’esterno...",
+            "preparation": "Preparazione e modulistica da portare:\n• Richiesta del Medico Specialista o del Medico Curante...",
+            "papers": [
+                {
+                    "name": "Informativa",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-tc/?wpdmdl=967"
+                }
+            ]
+        },
+        {
+            "code": "88.01.4",
+            "type": "Computed Tomography",
+            "title": {
+                "long": "Lower Abdominal Computed Tomography",
+                "short": "CT LOWER ABD"
+            },
+            "color": "#0000FF",
+            "systemImage": "helm",
+            "details": "Include: pelvi, colon e retto, vescica, utero e annessi o prostata.",
+            "locations": ["lowerAbdomen"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "urgent",
+                    "description": "Calcolosi renale complicata con ecografia non conclusiva."
+                }
+            ],
+            "information": "La tomografia computerizzata (TC) è una tecnica diagnostica che utilizza radiazioni ionizzanti per estrarre immagini dal corpo umano...",
+            "risks": "I raggi X (radiazioni ionizzanti) permettono di studiare diverse strutture anatomiche non visibili dall’esterno...",
+            "preparation": "Preparazione e modulistica da portare:\n• Richiesta del Medico Specialista o del Medico Curante...",
+            "papers": [
+                {
+                    "name": "Informativa",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-tc/?wpdmdl=967"
+                }
+            ]
+        },
+        {
+            "code": "87.41",
+            "type": "Computed Tomography",
+            "title": {
+                "long": "Thorax Computed Tomography",
+                "short": "CT THORAX"
+            },
+            "color": "#0000FF",
+            "systemImage": "helm",
+            "details": "Include polmoni, aorta toracica, trachea, esofago, sterno, coste e mediastino.",
+            "locations": ["thorax"],
+            "contrastModes": ["without"],
+            "scenarios": [
+                {
+                    "urgency": "urgent",
+                    "description": "Pneumotorace o pneumomediastino in paziente paucisintomatico con esame radiografico non conclusivo"
+                },
+                {
+                    "urgency": "urgent",
+                    "description": "Patologia polmonare infiammatoria acuta con esame radiografico non conclusivo"
+                },
+                {
+                    "urgency": "diagnostic",
+                    "description": "Sospetta interstiziopatia polmonare"
+                }
+            ],
+            "information": "La tomografia computerizzata (TC) è una tecnica diagnostica che utilizza radiazioni ionizzanti per estrarre immagini dal corpo umano...",
+            "risks": "I raggi X (radiazioni ionizzanti) permettono di studiare diverse strutture anatomiche non visibili dall'esterno...",
+            "preparation": "Preparazione e modulistica da portare:\n• Richiesta del Medico Specialista o del Medico Curante...",
+            "papers": [
+                {
+                    "name": "Informativa",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-tc/?wpdmdl=967"
+                }
+            ]
+        },
+        {
+            "code": "87.41.1",
+            "type": "Computed Tomography",
+            "title": {
+                "long": "Contrast Enhanced Thorax Computed Tomography",
+                "short": "CE CT THORAX"
+            },
+            "color": "#0000FF",
+            "systemImage": "helm",
+            "details": "Include polmoni, aorta toracica, trachea, esofago, sterno, coste e mediastino.",
+            "locations": ["thorax"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "basic",
+                    "description": "Evidenza clinica o radiografica di patologia oncologica mediastinica, polmonare o pleurica"
+                },
+                {
+                    "urgency": "basic",
+                    "description": "Evidenza clinica o radiografica di patologia vascolare mediastinica (allargamento mediastinico)"
+                },
+                {
+                    "urgency": "diagnostic",
+                    "description": "Versamento pleurico e patologia infiammatoria a lenta risoluzione dopo esame radiografico"
+                }
+            ],
+            "information": "La tomografia computerizzata (TC) è una tecnica diagnostica che utilizza radiazioni ionizzanti per estrarre immagini dal corpo umano...",
+            "risks": "I raggi X (radiazioni ionizzanti) permettono di studiare diverse strutture anatomiche non visibili dall'esterno...",
+            "preparation": "Preparazione e modulistica da portare:\n• Richiesta del Medico Specialista o del Medico Curante...",
+            "papers": [
+                {
+                    "name": "Informativa",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-tc/?wpdmdl=967"
+                },
+                {
+                    "name": "Contrast Medium Questionnaire",
+                    "url": "https://www.maggioreosp.novara.it/download/questionario-tc-mdc/?wpdmdl=968"
+                },
+                {
+                    "name": "Allergic Patient Form",
+                    "url": "https://www.maggioreosp.novara.it/download/modulo-paziente-allergico/?wpdmdl=996"
+                }
+            ]
+        },
+        {
+            "code": "87.03.2",
+            "type": "Computed Tomography",
+            "title": {
+                "long": "Maxillary Computed Tomography",
+                "short": "CT MAXILLARY"
+            },
+            "color": "#0000FF",
+            "systemImage": "helm",
+            "details": "Include: mascellare, mandibolare, seni paranasali, etmoide e articolazioni temporo-mandibolari.",
+            "locations": ["maxillary"],
+            "contrastModes": ["without"],
+            "scenarios": [
+                {
+                    "urgency": "basic",
+                    "description": "Patologia sinusale infiammatoria e polipoide clinicamente sintomatica"
+                },
+                {
+                    "urgency": "basic",
+                    "description": "Patologie odontogene complesse riconosciute alla indagine radiografica"
+                },
+                {
+                    "urgency": "diagnostic",
+                    "description": "Patologia sinusale infiammatoria e polipoide paucisintomatica/cronica"
+                }
+            ],
+            "information": "La tomografia computerizzata (TC) è una tecnica diagnostica che utilizza radiazioni ionizzanti per estrarre immagini dal corpo umano...",
+            "risks": "I raggi X (radiazioni ionizzanti) permettono di studiare diverse strutture anatomiche non visibili dall'esterno...",
+            "preparation": "Preparazione e modulistica da portare:\n• Richiesta del Medico Specialista o del Medico Curante...",
+            "papers": [
+                {
+                    "name": "Informativa",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-tc/?wpdmdl=967"
+                }
+            ]
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "ultrasoundExaminations": [
+    "examinations": [
         {
             "code": "88.71.4",
             "type": "Ultrasound",

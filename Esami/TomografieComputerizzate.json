@@ -1,10 +1,10 @@
 {
-    "computedTomographyExaminations": [
+    "examinations": [
         {
             "code": "87.03",
             "type": "Computed Tomography",
             "title": {
-                "long": "Brain Computed Tomography",
+                "long": "Tomografia computerizzata dell'encefalo",
                 "short": "CT BRAIN"
             },
             "color": "#0000FF",
@@ -14,19 +14,19 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Sospetti segni e/o sintomi di TIA, verificatosi da oltre 48h in paziente a basso rischio di recidiva"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Sospetto ematoma sottodurale cronico o idrocefalo normoteso"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Sospetta demenza vascolare"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Vertigini non di pertinenza otorino-laringoiatrica"
                 }
             ],
@@ -44,7 +44,7 @@
             "code": "87.03.1",
             "type": "Computed Tomography",
             "title": {
-                "long": "Contrast Enhanced Brain Computed Tomography",
+                "long": "Tomografia computerizzata dell'encefalo con mezzo di contrasto",
                 "short": "CE CT BRAIN"
             },
             "color": "#0000FF",
@@ -54,19 +54,19 @@
             "contrastModes": ["without", "with"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Sospetta lesione espansiva intracranica in paziente clinicamente sintomatico"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Cefalea semplice persistente con esame neurologico negativo"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Demenza o deterioramento mentale a lenta evoluzione"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Patologia dell'orecchio medio (otiti croniche e colesteatomi)"
                 }
             ],
@@ -92,7 +92,7 @@
             "code": "88.01.06",
             "type": "Computed Tomography",
             "title": {
-                "long": "Full Abdominal Computed Tomography",
+                "long": "Tomografia computerizzata dell'addome completo",
                 "short": "CT FULL ABD"
             },
             "color": "#0000FF",
@@ -102,31 +102,31 @@
             "contrastModes": ["without", "with"],
             "scenarios": [
                 {
-                    "urgency": "basic",
-                    "description": "Clinical/strumental (ultrasound) evidence of abdomino-pelvic oncologic pathology"
+                    "urgency": "B",
+                    "description": "Evidenza clinica o strumentale di patologia oncologica addomino-pelvica"
                 },
                 {
-                    "urgency": "basic",
-                    "description": "Primo riscontro ecografico di aneurisma dell’aorta addominale > 4 cm"
+                    "urgency": "B",
+                    "description": "Primo riscontro ecografico di aneurisma dell’aorta addominale superiore a 4 cm"
                 },
                 {
-                    "urgency": "basic",
-                    "description": "Riscontro a seguito di follow-up ecografico di aumento > 1 cm di diametro di aneurisma dell’aorta addominale"
+                    "urgency": "B",
+                    "description": "Riscontro a seguito di follow-up ecografico di aumento superiore a 1 cm di diametro di aneurisma dell’aorta addominale"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Caratterizzazione di lesioni focali al fegato, dopo ecografia non conclusiva"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Sospetta surrenopatia endocrina con ecografia non conclusiva"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Sospetta pancreatite cronica"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Lesioni focali al fegato con diagnosi ecografica verosimilmente benigna ma non conclusiva"
                 }
             ],
@@ -144,7 +144,7 @@
             "code": "88.01.4",
             "type": "Computed Tomography",
             "title": {
-                "long": "Lower Abdominal Computed Tomography",
+                "long": "Tomografia computerizzata dell'addome inferiore",
                 "short": "CT LOWER ABD"
             },
             "color": "#0000FF",
@@ -154,8 +154,8 @@
             "contrastModes": ["without", "with"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
-                    "description": "Calcolosi renale complicata con ecografia non conclusiva."
+                    "urgency": "U",
+                    "description": "Calcolosi renale complicata con ecografia non conclusiva"
                 }
             ],
             "information": "La tomografia computerizzata (TC) è una tecnica diagnostica che utilizza radiazioni ionizzanti per estrarre immagini dal corpo umano...",
@@ -172,7 +172,7 @@
             "code": "87.41",
             "type": "Computed Tomography",
             "title": {
-                "long": "Thorax Computed Tomography",
+                "long": "Tomografia computerizzata del torace",
                 "short": "CT THORAX"
             },
             "color": "#0000FF",
@@ -182,15 +182,15 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Pneumotorace o pneumomediastino in paziente paucisintomatico con esame radiografico non conclusivo"
                 },
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Patologia polmonare infiammatoria acuta con esame radiografico non conclusivo"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Sospetta interstiziopatia polmonare"
                 }
             ],
@@ -208,7 +208,7 @@
             "code": "87.41.1",
             "type": "Computed Tomography",
             "title": {
-                "long": "Contrast Enhanced Thorax Computed Tomography",
+                "long": "Tomografia computerizzata del torace con mezzo di contrasto",
                 "short": "CE CT THORAX"
             },
             "color": "#0000FF",
@@ -218,15 +218,15 @@
             "contrastModes": ["without", "with"],
             "scenarios": [
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Evidenza clinica o radiografica di patologia oncologica mediastinica, polmonare o pleurica"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Evidenza clinica o radiografica di patologia vascolare mediastinica (allargamento mediastinico)"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Versamento pleurico e patologia infiammatoria a lenta risoluzione dopo esame radiografico"
                 }
             ],
@@ -252,7 +252,7 @@
             "code": "87.03.2",
             "type": "Computed Tomography",
             "title": {
-                "long": "Maxillary Computed Tomography",
+                "long": "Tomografia computerizzata del massiccio facciale",
                 "short": "CT MAXILLARY"
             },
             "color": "#0000FF",
@@ -262,15 +262,15 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Patologia sinusale infiammatoria e polipoide clinicamente sintomatica"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Patologie odontogene complesse riconosciute alla indagine radiografica"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Patologia sinusale infiammatoria e polipoide paucisintomatica/cronica"
                 }
             ],

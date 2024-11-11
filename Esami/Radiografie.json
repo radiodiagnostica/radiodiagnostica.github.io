@@ -1,10 +1,10 @@
 {
-    "XrayExaminations": [
+    "examinations": [
         {
             "code": "87.44.1",
             "type": "X-ray",
             "title": {
-                "long": "Thorax X-ray",
+                "long": "Radiografia del torace",
                 "short": "X-ray THORAX"
             },
             "color": "#FFA500",
@@ -14,27 +14,27 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dispnea ingravescente senza causa nota"
                 },
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Sospetta broncopolmonite"
                 },
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Sospetta lesione neoplastica toracica (in presenza di segni/sintomi clinici specifici)"
                 },
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Sospetto versamento pleurico"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Tosse senza causa evidente"
                 },
                 {
-                    "urgency": "diagnostic",
+                    "urgency": "D",
                     "description": "Sospetta patologia interstiziale polmonare diffusa"
                 }
             ],
@@ -52,7 +52,7 @@
             "code": "88.28.1",
             "type": "X-ray",
             "title": {
-                "long": "Ankle X-ray",
+                "long": "Radiografia della caviglia",
                 "short": "X-ray ANKLE"
             },
             "color": "#FFA500",
@@ -62,11 +62,11 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore alla caviglia persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore alla caviglia persistente e resistente alla terapia dopo 3 settimane"
                 }
             ],
@@ -79,7 +79,7 @@
             "code": "88.28.2",
             "type": "X-ray",
             "title": {
-                "long": "Foot X-ray",
+                "long": "Radiografia del piede",
                 "short": "X-ray FOOT"
             },
             "color": "#FFA500",
@@ -89,11 +89,11 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore al piede persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore al piede persistente e resistente alla terapia dopo 3 settimane"
                 }
             ],
@@ -106,7 +106,7 @@
             "code": "87.22",
             "type": "X-ray",
             "title": {
-                "long": "Cervical Spine X-ray",
+                "long": "Radiografia della colonna cervicale",
                 "short": "X-ray CERVICAL SPINE"
             },
             "color": "#FFA500",
@@ -116,19 +116,19 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore alla colonna cervicale persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore alla colonna cervicale persistente e resistente alla terapia dopo 3 settimane"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Morfometria vertebrale per sospetto crollo vertebrale cervicale su base osteoporotica"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Scoliosi, dismorfismi scheletrici della colonna cervicale"
                 }
             ],
@@ -141,7 +141,7 @@
             "code": "87.23",
             "type": "X-ray",
             "title": {
-                "long": "Dorsal Spine X-ray",
+                "long": "Radiografia della colonna dorsale",
                 "short": "X-ray DORSAL SPINE"
             },
             "color": "#FFA500",
@@ -151,19 +151,19 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore alla colonna dorsale persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore alla colonna dorsale persistente e resistente alla terapia dopo 3 settimane"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Morfometria vertebrale per sospetto crollo vertebrale dorsale su base osteoporotica"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Scoliosi, dismorfismi scheletrici della colonna dorsale"
                 }
             ],
@@ -176,7 +176,7 @@
             "code": "87.24",
             "type": "X-ray",
             "title": {
-                "long": "Lumbar Spine X-ray",
+                "long": "Radiografia della colonna lombare",
                 "short": "X-ray LUMBAR SPINE"
             },
             "color": "#FFA500",
@@ -186,19 +186,19 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore alla colonna lombare persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore alla colonna lombare persistente e resistente alla terapia dopo 3 settimane"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Morfometria vertebrale per sospetto crollo vertebrale lombare su base osteoporotica"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Scoliosi, dismorfismi scheletrici della colonna lombare"
                 }
             ],
@@ -211,7 +211,7 @@
             "code": "87.24.6",
             "type": "X-ray",
             "title": {
-                "long": "Sacral Spine X-ray",
+                "long": "Radiografia della colonna sacrale",
                 "short": "X-ray SACRAL SPINE"
             },
             "color": "#FFA500",
@@ -221,15 +221,15 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore sacro-coccigeo persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore sacro-coccigeo persistente e resistente alla terapia dopo 3 settimane"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Scoliosi, dismorfismi scheletrici della colonna sacro-coccigea"
                 }
             ],
@@ -242,7 +242,7 @@
             "code": "88.27.1",
             "type": "X-ray",
             "title": {
-                "long": "Femur X-ray",
+                "long": "Radiografia del femore",
                 "short": "X-ray FEMUR"
             },
             "color": "#FFA500",
@@ -252,11 +252,11 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore al femore persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore al femore persistente e resistente alla terapia dopo 3 settimane"
                 }
             ],
@@ -269,7 +269,7 @@
             "code": "88.27.2",
             "type": "X-ray",
             "title": {
-                "long": "Knee X-ray",
+                "long": "Radiografia del ginocchio",
                 "short": "X-ray KNEE"
             },
             "color": "#FFA500",
@@ -279,15 +279,15 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore al ginocchio persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore al ginocchio persistente e resistente alla terapia dopo 3 settimane"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Sospetta artrite settica o infiammatoria del ginocchio"
                 }
             ],
@@ -300,7 +300,7 @@
             "code": "88.27.3",
             "type": "X-ray",
             "title": {
-                "long": "Leg X-ray",
+                "long": "Radiografia della gamba",
                 "short": "X-ray LEG"
             },
             "color": "#FFA500",
@@ -310,11 +310,11 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore alla gamba persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore alla gamba persistente e resistente alla terapia dopo 3 settimane"
                 }
             ],
@@ -327,7 +327,7 @@
             "code": "88.23.1",
             "type": "X-ray",
             "title": {
-                "long": "Wrist X-ray",
+                "long": "Radiografia del polso",
                 "short": "X-ray WRIST"
             },
             "color": "#FFA500",
@@ -337,15 +337,15 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore al polso persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore al polso persistente e resistente alla terapia dopo 3 settimane"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Sospetta artrite settica o infiammatoria del polso"
                 }
             ],
@@ -358,7 +358,7 @@
             "code": "88.23.2",
             "type": "X-ray",
             "title": {
-                "long": "Hand X-ray",
+                "long": "Radiografia della mano",
                 "short": "X-ray HAND"
             },
             "color": "#FFA500",
@@ -368,15 +368,15 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore alla mano persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore alla mano persistente e resistente alla terapia dopo 3 settimane"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Sospetta artrite settica o infiammatoria della mano"
                 }
             ],
@@ -389,7 +389,7 @@
             "code": "88.23.3",
             "type": "X-ray",
             "title": {
-                "long": "Elbow X-ray",
+                "long": "Radiografia del gomito",
                 "short": "X-ray ELBOW"
             },
             "color": "#FFA500",
@@ -399,15 +399,15 @@
             "contrastModes": ["without"],
             "scenarios": [
                 {
-                    "urgency": "urgent",
+                    "urgency": "U",
                     "description": "Dolore al gomito persistente dopo trauma lieve"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Dolore al gomito persistente e resistente alla terapia dopo 3 settimane"
                 },
                 {
-                    "urgency": "basic",
+                    "urgency": "B",
                     "description": "Sospetta artrite settica o infiammatoria del gomito"
                 }
             ],

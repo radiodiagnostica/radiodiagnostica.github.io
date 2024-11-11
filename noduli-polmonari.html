@@ -51,45 +51,59 @@
                 </select>
             </div>
 
-            <div class="mb-3">
-                <label for="noduleSizePicker" class="form-label">Dimensione massima del nodulo (mm)</label>
-                <input type="number" class="form-control" id="noduleSizePicker" min="0" step="0.1">
-            </div>
-
-            <div class="mb-3">
-                <label for="growthPicker" class="form-label">Crescita</label>
-                <select class="form-select" id="growthPicker">
-                    <option value="stable">Stabile</option>
-                    <option value="slow">Lenta</option>
-                    <option value="fast">Rapida</option>
+            <!-- <div class="mb-3">
+                <select class="form-select" id="lungLobePicker">
+                    <option selected>Lobo</option>
+                    <option value="rul">Superiore destro</option>
+                    <option value="lul">Superiore sinistro</option>
+                    <option value="rll">Inferiore destro</option>
+                    <option value="lll">Inferiore sinistro</option>
+                    <option value="ml">Medio</option>
+                    <option value="lingula">Lingula</option>
                 </select>
             </div>
 
             <div class="mb-3">
-                <label for="upperlobe" class="form-label">Lobo superiore</label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="upperlobe">
-                    <label class="form-check-label" for="upperlobe">
-                        Nodulo nel lobo superiore
-                    </label>
-                </div>
+                <select class="form-select" id="lobeSegmentPicker">
+                    <option selected>Segmento</option>
+                    <option value="ad">Apico-dorsale</option>
+                    <option value="apical">Apicale</option>
+                    <option value="anterior">Anteriore</option>
+                    <option value="dorsal">Dorsale</option>
+                    <option value="medial">Mediale</option>
+                    <option value="lateral">Lateral</option>
+                    <option value="inferior">Inferiore</option>
+                    <option value="superior">Superiore</option>
+                </select>
+            </div> -->
+            
+            <div class="mb-3">
+                <label for="longAxisInput" class="form-label">Asse lungo</label>
+                <input type="number" class="form-control" id="longAxisInput" aria-describedby="longAxisHelp" placeholder="Dimensione in millimetri">
+                <div id="longAxisHelp" class="form-text text-muted">Diametro maggiore del nodulo in millimetri.</div>
+            </div>
+            
+            <div class="mb-3">
+                <label for="shortAxisInput" class="form-label">Asse corto</label>
+                <input type="number" class="form-control" id="shortAxisInput" aria-describedby="shortAxisHelp" placeholder="Dimensione in millimetri">
+                <div id="shortAxisHelp" class="form-text text-muted">Diametro minore del nodulo in millimetri.</div>
             </div>
 
-            <div class="mb-3">
-                <label for="spiculated" class="form-label">Spiculato</label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="spiculated">
-                    <label class="form-check-label" for="spiculated">
-                        Nodulo spiculato
-                    </label>
-                </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="multipleNodulesCheck" aria-describedby="multipleNodulesHelp">
+                <label class="form-check-label" for="multipleNodulesCheck">Noduli multipli</label>
+            </div>
+            
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="riskFactorsCheck" aria-describedby="riskFactorsHelp">
+                <label class="form-check-label" for="riskFactorsCheck">Fattori di rischio</label>
+                <div id="riskFactorsHelp" class="form-text text-muted">Margini spiculati, sede apicale, presenza di enfisema/fibrosi, familiarità, etnia non caucasica, esposizione a fumo o altri cancerogeni.</div>
             </div>
 
             <div class="d-grid mt-4">
                 <button type="button" id="resultButton" class="btn btn-secondary">In attesa dei dati</button>
             </div>
-        </form>
-    </div>
+        </div>
         
     <script type="text/javascript" src="main.js"></script>
 </body>

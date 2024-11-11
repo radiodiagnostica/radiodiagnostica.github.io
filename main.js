@@ -14,7 +14,7 @@ function copyReport() {
 
     var noduleSizeDescription
     
-    if (longAxis && shortAxis) {
+    if (longAxis && shortAxis) {
         noduleSizeDescription = `${longAxis} x ${shortAxis}`
     } else if (longAxis) {
         noduleSizeDescription = `${longAxis}`
@@ -80,7 +80,7 @@ function computeResult() {
     
     var meanDiameter
     
-    if (longAxis && shortAxis) {
+    if (longAxis && shortAxis) {
         meanDiameter = longAxis / 2 + shortAxis / 2
     } else if (longAxis) {
         meanDiameter = longAxis
@@ -189,7 +189,7 @@ function computeResult() {
                 $('#resultButton').attr('class', 'btn btn-success')
             } else if (meanDiameter >= 6) {
                 // In practice, part-solid nodules cannot be defined as such until >=6 mm, and nodules <6 mm do not usually require follow-up. Persistent part-solid nodules with solid components >=6 mm should be considered highly suspicious (recommendations 4A-4C)
-                resultButton.innerHTML = "TC a 3-6 mesi per confermare la persistenza; se invariato e con componente solida <6 mm, TC annuale per 5 anni"
+                resultButton.innerHTML = "TC a 3-6 mesi per confermare la persistenza; se invariato e con componente solida inferiore a 6 mm, TC annuale per 5 anni"
                 $('#resultButton').attr('class', 'btn btn-warning')
             }
             

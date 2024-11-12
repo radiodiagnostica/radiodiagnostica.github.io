@@ -62,202 +62,201 @@
             <!-- Scenarios will be dynamically populated here -->
         </div>
     </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Array of JSON file paths
-            const jsonFiles = [
-                'Esami-dev/Ecografie.json',
-                'Esami-dev/Radiografie.json',
-                'Esami-dev/RisonanzeMagnetiche.json',
-                'Esami-dev/TomografieComputerizzate.json'
-            ];
-    
-            // Fetch all JSON files
-            Promise.all(jsonFiles.map(file => 
-                fetch(file).then(response => response.json())
-            ))
-            .then(dataArray => {
-                // Combine data from all JSON files
-                const combinedData = {
-                    examinations: dataArray.flatMap(data => data.examinations)
-                };
-    
-                const locationsContainer = document.getElementById('locationsContainer');
-                const scenariosContainer = document.getElementById('scenariosContainer');
-                const backToLocationsBtn = document.getElementById('backToLocations');
-                const selectedLocationTitle = document.getElementById('selectedLocationTitle');
-                const searchInput = document.getElementById('searchInput');
-    
-                // Extract unique locations from combined data
-                const uniqueLocations = [...new Set(
-                    combinedData.examinations.flatMap(exam => exam.locations)
-                )];
-    
-                // Create location cards
-                function createLocationCards() {
-                    // Clear existing location cards
-                    locationsContainer.innerHTML = '';
-    
-                    uniqueLocations.forEach(location => {
-                        const card = document.createElement('div');
-                        card.className = 'col-md-4';
-                        card.innerHTML = `
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Array of JSON file paths
+        const jsonFiles = [
+        'Esami-dev/Ecografie.json',
+        'Esami-dev/Radiografie.json',
+        'Esami-dev/RisonanzeMagnetiche.json',
+        'Esami-dev/TomografieComputerizzate.json'
+        ];
+        
+        // Fetch all JSON files
+        Promise.all(jsonFiles.map(file => 
+        fetch(file).then(response => response.json())
+        ))
+        .then(dataArray => {
+            // Combine data from all JSON files
+            const combinedData = {
+                examinations: dataArray.flatMap(data => data.examinations)
+            };
+            
+            const locationsContainer = document.getElementById('locationsContainer');
+            const scenariosContainer = document.getElementById('scenariosContainer');
+            const backToLocationsBtn = document.getElementById('backToLocations');
+            const selectedLocationTitle = document.getElementById('selectedLocationTitle');
+            const searchInput = document.getElementById('searchInput');
+            
+            // Extract unique locations from combined data
+            const uniqueLocations = [...new Set(
+            combinedData.examinations.flatMap(exam => exam.locations)
+            )];
+            
+            // Create location cards
+            function createLocationCards() {
+                // Clear existing location cards
+                locationsContainer.innerHTML = '';
+                
+                uniqueLocations.forEach(location => {
+                    const card = document.createElement('div');
+                    card.className = 'col-md-4';
+                    card.innerHTML = `
                             <div class="card location-card" data-location="${location}">
                                 <div class="card-body">
                                     <h5 class="card-title">${formatLocation(location)}</h5>
                                 </div>
                             </div>
                         `;
-                        card.addEventListener('click', () => showScenarios(location, combinedData));
-                        locationsContainer.appendChild(card);
-                    });
-                }
-    
-                // Initial creation of location cards
-                createLocationCards();
-    
-                // Search functionality
-                searchInput.addEventListener('input', () => {
-                    const searchTerm = searchInput.value.toLowerCase().trim();
-                    
-                    if (searchTerm === '') {
-                        // Show locations grid when search is empty
-                        locationsContainer.style.display = 'flex';
-                        scenariosContainer.style.display = 'none';
-                        createLocationCards(); // Recreate location cards
-                    } else {
-                        // Filter scenarios
-                        filterScenarios(combinedData, searchTerm);
-                    }
+                    card.addEventListener('click', () => showScenarios(location, combinedData));
+                    locationsContainer.appendChild(card);
                 });
-    
-                function filterScenarios(combinedData, searchTerm) {
-                    // Clear previous scenarios
-                    scenariosContainer.innerHTML = `
-                        <div class="col-12 d-flex justify-content-between align-items-center">
-                            <h2 id="selectedLocationTitle">Scenari clinici</h2>
-                            <button id="backToLocations" class="btn btn-secondary">Chiudi</button>
-                        </div>    
-                    `;
-    
-                    // Track if any scenarios match the search
-                    let hasMatchingScenarios = false;
-    
-                    // Iterate through all examinations
-                    combinedData.examinations.forEach(exam => {
-                        // Filter scenarios based on search term
-                        const matchingScenarios = exam.scenarios.filter(scenario => {
-                            const locationMatches = exam.locations.some(location => 
-                                formatLocation(location).toLowerCase().includes(searchTerm)
-                            );
-    
-                            return locationMatches ||
-                                   scenario.description.toLowerCase().includes(searchTerm) ||
-                                   exam.title.long.toLowerCase().includes(searchTerm) ||
-                                   exam.code.toLowerCase().includes(searchTerm);
-                        });
-    
-                        // Create scenario cards for matching scenarios
-                        matchingScenarios.forEach(scenario => {
-                            hasMatchingScenarios = true;
-                            const scenarioCard = document.createElement('div');
-                            scenarioCard.className = 'col-md-4';
-                            
-                            // Map urgency to Bootstrap background classes
-                            const urgencyClassMap = {
-                                'U': 'bg-danger text-white',
-                                'B': 'bg-warning text-dark',
-                                'D': 'bg-success text-white',
-                                'P': 'bg-info text-white'
-                            };
-                            
-                            const urgencyClass = urgencyClassMap[scenario.urgency] || '';
-    
-                            scenarioCard.innerHTML = `
-                                <div class="card scenario-card ${urgencyClass}">
-                                    <div class="card-body">
-                                        <h5 class="card-title">${scenario.description}</h5>
-                                        <p class="card-text">
-                                            <strong>Priorità:</strong> ${scenario.urgency}<br>
-                                            <strong>Esame:</strong> ${exam.title.long}<br>
-                                            <strong>Codice:</strong> ${exam.code}<br>
-                                            <strong>Distretto:</strong> ${exam.locations.map(formatLocation).join(', ')}
-                                        </p>
-                                    </div>
-                                </div>
-                            `;
-                            scenariosContainer.appendChild(scenarioCard);
-                        });
-                    });
-    
-                    // Show scenarios container
-                    locationsContainer.style.display = 'none';
-                    scenariosContainer.style.display = 'flex';
-    
-                    // Add back button listener
-                    document.getElementById('backToLocations').addEventListener('click', () => {
-                        locationsContainer.style.display = 'flex';
-                        scenariosContainer.style.display = 'none';
-                        searchInput.value = '';
-                    });
-    
-                    // If no scenarios match, show a message
-                    if (!hasMatchingScenarios) {
-                        const noResultsMessage = document.createElement('div');
-                        noResultsMessage.className = 'col-12';
-                        noResultsMessage.innerHTML = `
-                            <div class="alert alert-info text-center" role="alert">
-                                Nessuno scenario trovato per la ricerca "${searchTerm}"
-                            </div>
-                        `;
-                        scenariosContainer.appendChild(noResultsMessage);
-                    }
+            }
+            
+            // Initial creation of location cards
+            createLocationCards();
+            
+            // Search functionality
+            searchInput.addEventListener('input', () => {
+                const searchTerm = searchInput.value.toLowerCase().trim();
+                
+                if (searchTerm === '') {
+                    // Show locations grid when search is empty
+                    locationsContainer.style.display = 'flex';
+                    scenariosContainer.style.display = 'none';
+                    createLocationCards(); // Recreate location cards
+                } else {
+                    // Filter scenarios
+                    filterScenarios(combinedData, searchTerm);
                 }
-    
-                function showScenarios(location, combinedData) {
-                    // Clear search input and show scenarios for specific location
-                    searchInput.value = '';
-                    filterScenarios(combinedData, formatLocation(location).toLowerCase());
-                }
-    
-                // Helper function to format location names
-        function formatLocation(location) {
-            const locationMap = {
-                'head': 'Testa',
-                'neck': 'Collo',
-                'fullAbdomen': 'Addome completo',
-                'lowerAbdomen': 'Addome inferiore',
-                'upperAbdomen': 'Addome superiore',
-                'breast': 'Mammella',
-                'thorax': 'Torace',
-                'ankle': 'Caviglia',
-                'foot': 'Piede',
-                'cervicalSpine': 'Colonna cervicale',
-                'dorsalSpine': 'Colonna toracica',
-                'lumbarSpine': 'Colonna lombare',
-                'sacralSpine': 'Colonna sacrale',
-                'femur': 'Femore',
-                'knee': 'Ginocchio',
-                'leg': 'Gamba',
-                'wrist': 'Polso',
-                'hand': 'Mano',
-                'elbow': 'Gomito',
-                'brain': 'Encefalo',
-                'fullSpine': 'Colonna completa',
-                'pelvis': 'Pelvi',
-                'shoulder': 'Spalla',
-                'arm': 'Braccio',
-                'forearm': 'Avambraccio',
-                'maxillary': 'Massiccio facciale'
-            };
-            return locationMap[location] || location;
-        }
-            })
-            .catch(error => {
-                console.error('Error fetching JSON files:', error);
             });
+            
+            function filterScenarios(combinedData, searchTerm) {
+                // Clear previous scenarios
+                scenariosContainer.innerHTML = `
+        <div class="col-12 d-flex justify-content-between align-items-center">
+            <h2 id="selectedLocationTitle">Scenari clinici</h2>
+            <button id="backToLocations" class="btn btn-secondary">Chiudi</button>
+        </div>    
+    `;
+                
+                // Track if any scenarios match the search
+                let hasMatchingScenarios = false;
+                
+                // Split search terms to require all terms to be present
+                const searchTerms = searchTerm.toLowerCase().split(/\s+/);
+                
+                // Iterate through all examinations
+                combinedData.examinations.forEach(exam => {
+                    // Filter scenarios based on search terms
+                    const matchingScenarios = exam.scenarios.filter(scenario => {
+                        // Check if ALL search terms are present in any field
+                        return searchTerms.every(term => {
+                            const locationMatches = exam.locations.some(location => 
+                            formatLocation(location).toLowerCase().includes(term)
+                            );
+                            
+                            return locationMatches ||
+                            scenario.description.toLowerCase().includes(term) ||
+                            exam.title.long.toLowerCase().includes(term) ||
+                            exam.code.toLowerCase().includes(term);
+                        });
+                    });
+                    
+                    // Create scenario cards for matching scenarios
+                    matchingScenarios.forEach(scenario => {
+                        hasMatchingScenarios = true;
+                        const scenarioCard = document.createElement('div');
+                        scenarioCard.className = 'col-md-4';
+                        
+                        // Map urgency to Bootstrap background classes
+                        const urgencyClassMap = {
+                            'U': 'bg-danger text-white',
+                            'B': 'bg-warning text-dark',
+                            'D': 'bg-success text-white',
+                            'P': 'bg-info text-white'
+                        };
+                        
+                        const urgencyClass = urgencyClassMap[scenario.urgency] || '';
+                        
+                        scenarioCard.innerHTML = `
+                <div class="card scenario-card ${urgencyClass}">
+                    <div class="card-body">
+                        <h5 class="card-title">${scenario.description}</h5>
+                        <p class="card-text">
+                            <strong>Priorità:</strong> ${scenario.urgency}<br>
+                            <strong>Esame:</strong> ${exam.title.long}<br>
+                            <strong>Codice:</strong> ${exam.code}<br>
+                            <strong>Distretto:</strong> ${exam.locations.map(formatLocation).join(', ')}
+                        </p>
+                    </div>
+                </div>
+            `;
+                        scenariosContainer.appendChild(scenarioCard);
+                    });
+                });
+                
+                // Show scenarios container
+                locationsContainer.style.display = 'none';
+                scenariosContainer.style.display = 'flex';
+                
+                // Add back button listener
+                document.getElementById('backToLocations').addEventListener('click', () => {
+                    locationsContainer.style.display = 'flex';
+                    scenariosContainer.style.display = 'none';
+                    searchInput.value = '';
+                });
+                
+                // If no scenarios match, show a message
+                if (!hasMatchingScenarios) {
+                    const noResultsMessage = document.createElement('div');
+                    noResultsMessage.className = 'col-12';
+                    noResultsMessage.innerHTML = `
+            <div class="alert alert-info text-center" role="alert">
+                Nessuno scenario trovato per la ricerca "${searchTerm}"
+            </div>
+        `;
+                    scenariosContainer.appendChild(noResultsMessage);
+                }
+            }
+            
+            // Helper function to format location names
+            function formatLocation(location) {
+                const locationMap = {
+                    'head': 'Testa',
+                    'neck': 'Collo',
+                    'fullAbdomen': 'Addome completo',
+                    'lowerAbdomen': 'Addome inferiore',
+                    'upperAbdomen': 'Addome superiore',
+                    'breast': 'Mammella',
+                    'thorax': 'Torace',
+                    'ankle': 'Caviglia',
+                    'foot': 'Piede',
+                    'cervicalSpine': 'Colonna cervicale',
+                    'dorsalSpine': 'Colonna toracica',
+                    'lumbarSpine': 'Colonna lombare',
+                    'sacralSpine': 'Colonna sacrale',
+                    'femur': 'Femore',
+                    'knee': 'Ginocchio',
+                    'leg': 'Gamba',
+                    'wrist': 'Polso',
+                    'hand': 'Mano',
+                    'elbow': 'Gomito',
+                    'brain': 'Encefalo',
+                    'fullSpine': 'Colonna completa',
+                    'pelvis': 'Pelvi',
+                    'shoulder': 'Spalla',
+                    'arm': 'Braccio',
+                    'forearm': 'Avambraccio',
+                    'maxillary': 'Massiccio facciale'
+                };
+                return locationMap[location] || location;
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching JSON files:', error);
         });
-    </script>
+    });
+</script>
 </body>
 </html>

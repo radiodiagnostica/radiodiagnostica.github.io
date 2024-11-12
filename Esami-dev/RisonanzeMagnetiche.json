@@ -234,12 +234,60 @@
                     "description": "Algia acuta di spalla con limitazioni funzionali gravi o blocco articolare in paziente con età inferiore a 65 anni"
                 },
                 {
-                    "urgency": "B",
+                    "urgency": "B", 
                     "description": "Dolore persistente di spalla con sospetta lesione legamentosa ed ecografia negativa o dubbia"
                 },
                 {
                     "urgency": "D",
-                    "description": "Sospette lesioni tendinee o ligamentose post-traumatiche"
+                    "description": "Sospette lesioni tendinee o ligamentose post-traumatiche in pazienti di età inferiore a 65 anni e/o fibrocartilaginee di spalla"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione osteocondrale post-traumatica di spalla dubbia alla RX"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Stadiazione locale di neoplasia di spalla"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospetta neoplasia di spalla dopo indagine radiologica di primo livello"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteonecrosi di spalla"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Osteomielite di spalla"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteocondrite di spalla"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Malattia artritica precoce di spalla dopo RX negativa ed ecografia/test laboratoristici positivi"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Patologia reumatica di spalla"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Algia di spalla con limitazioni funzionali in paziente con età superiore a 65 anni"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Sindrome da conflitto articolare di spalla"
+                },
+                {
+                    "urgency": "P", 
+                    "description": "Patologia algico-disfunzionale di spalla"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Patologie infiammatorie croniche di spalla"
                 }
             ],
             "information": "La Risonanza Magnetica della spalla è utile per studiare lesioni e patologie articolari.",
@@ -289,11 +337,63 @@
             "scenarios": [
                 {
                     "urgency": "B",
-                    "description": "Dolore persistente al gomito con sospetta lesione legamentosa"
+                    "description": "Algia acuta di gomito con limitazioni funzionali gravi o blocco articolare in paziente con età inferiore a 65 anni"
+                },
+                {
+                    "urgency": "B", 
+                    "description": "Dolore persistente di gomito con sospetta lesione legamentosa ed ecografia negativa o dubbia"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospette lesioni tendinee o ligamentose post-traumatiche in pazienti di età inferiore a 65 anni e/o fibrocartilaginee di gomito"
                 },
                 {
                     "urgency": "B",
-                    "description": "Sospetta lesione ossea o cartilaginea"
+                    "description": "Sospetta lesione osteocondrale post-traumatica di gomito dubbia alla RX"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Stadiazione locale di neoplasia di gomito"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospetta neoplasia di gomito dopo indagine radiologica di primo livello"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteonecrosi di gomito"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Osteomielite di gomito"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteocondrite di gomito"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Malattia artritica precoce di gomito dopo RX negativa ed ecografia/test laboratoristici positivi"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Patologia reumatica di gomito"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Algia di gomito con limitazioni funzionali in paziente con età superiore a 65 anni"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Sindrome da conflitto articolare di gomito"
+                },
+                {
+                    "urgency": "P", 
+                    "description": "Patologia algico-disfunzionale di gomito"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Patologie infiammatorie croniche di gomito"
                 }
             ],
             "information": "La Risonanza Magnetica del gomito è utile per diagnosticare patologie ossee e legamentose.",
@@ -339,11 +439,75 @@
             "scenarios": [
                 {
                     "urgency": "B",
-                    "description": "Dolore persistente al polso con sospetta lesione tendinea o legamentosa"
+                    "description": "Algia acuta di polso con limitazioni funzionali gravi o blocco articolare in paziente con età inferiore a 65 anni"
+                },
+                {
+                    "urgency": "B", 
+                    "description": "Dolore persistente di polso con sospetta lesione legamentosa ed ecografia negativa o dubbia"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospette lesioni tendinee o ligamentose post-traumatiche in pazienti di età inferiore a 65 anni e/o fibrocartilaginee di polso"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione osteocondrale post-traumatica di polso dubbia alla RX"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Stadiazione locale di neoplasia di polso"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospetta neoplasia di polso dopo indagine radiologica di primo livello"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteonecrosi di polso"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Osteomielite di polso"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteocondrite di polso"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Malattia artritica precoce di polso dopo RX negativa ed ecografia/test laboratoristici positivi"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Patologia reumatica di polso"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Algia di polso con limitazioni funzionali in paziente con età superiore a 65 anni"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Sindrome da conflitto articolare di polso"
+                },
+                {
+                    "urgency": "P", 
+                    "description": "Patologia algico-disfunzionale di polso"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Patologie infiammatorie croniche di polso"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sindrome del tunnel carpale con segni neurologici"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospetta lesione del nervo mediano"
                 }
             ],
-            "information": "La Risonanza Magnetica del polso è utile per diagnosticare lesioni e patologie articolari.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma informare il personale di eventuali allergie.",
+            "information": "La Risonanza Magnetica del polso è utile per valutare strutture ossee, legamentose e nervose.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
             "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
             "papers": []
         },
@@ -362,11 +526,71 @@
             "scenarios": [
                 {
                     "urgency": "B",
-                    "description": "Dolore persistente alla mano con sospetta lesione"
+                    "description": "Algia acuta di mano con limitazioni funzionali gravi o blocco articolare in paziente con età inferiore a 65 anni"
+                },
+                {
+                    "urgency": "B", 
+                    "description": "Dolore persistente di mano con sospetta lesione legamentosa ed ecografia negativa o dubbia"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospette lesioni tendinee o ligamentose post-traumatiche in pazienti di età inferiore a 65 anni"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione osteocondrale post-traumatica di mano dubbia alla RX"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Stadiazione locale di neoplasia di mano"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospetta neoplasia di mano dopo indagine radiologica di primo livello"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteonecrosi di mano"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Osteomielite di mano"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Malattia artritica precoce di mano dopo RX negativa ed ecografia/test laboratoristici positivi"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Patologia reumatica di mano"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Algia di mano con limitazioni funzionali in paziente con età superiore a 65 anni"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Sindrome da conflitto articolare di mano"
+                },
+                {
+                    "urgency": "P", 
+                    "description": "Patologia algico-disfunzionale di mano"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Patologie infiammatorie croniche di mano"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sindrome del tunnel carpale con segni neurologici"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospetta lesione dei tendini flessori o estensori"
                 }
             ],
-            "information": "La Risonanza Magnetica della mano è utile per diagnosticare lesioni e patologie muscolari.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma informare il personale di eventuali allergie.",
+            "information": "La Risonanza Magnetica della mano è utile per valutare strutture ossee, articolari, tendinee e nervose.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
             "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
             "papers": []
         },
@@ -398,6 +622,89 @@
             "papers": []
         },
         {
+            "code": "88.94.A",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica dell'anca",
+                "short": "MRI HIP"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica dell'anca.",
+            "locations": ["hip"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Algia acuta di anca con limitazioni funzionali gravi o blocco articolare in paziente con età inferiore a 65 anni"
+                },
+                {
+                    "urgency": "B", 
+                    "description": "Dolore persistente di anca con sospetta lesione legamentosa ed ecografia negativa o dubbia"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospette lesioni tendinee o ligamentose post-traumatiche in pazienti di età inferiore a 65 anni"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione osteocondrale post-traumatica di anca dubbia alla RX"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Stadiazione locale di neoplasia di anca"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospetta neoplasia di anca dopo indagine radiologica di primo livello"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteonecrosi della testa del femore"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Osteomielite di anca"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Malattia artritica precoce di anca dopo RX negativa ed ecografia/test laboratoristici positivi"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Patologia reumatica di anca"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Algia di anca con limitazioni funzionali in paziente con età superiore a 65 anni"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Sindrome da conflitto articolare di anca"
+                },
+                {
+                    "urgency": "P", 
+                    "description": "Patologia algico-disfunzionale di anca"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Patologie infiammatorie croniche di anca"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta displasia dell'anca"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Valutazione protesi d'anca"
+                }
+            ],
+            "information": "La Risonanza Magnetica dell'anca è utile per valutare strutture ossee, articolari e dei tessuti molli.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
+            "papers": []
+        },
+        {
             "code": "88.94.B",
             "type": "MRI",
             "title": {
@@ -412,11 +719,63 @@
             "scenarios": [
                 {
                     "urgency": "B",
-                    "description": "Dolore al ginocchio con sospetta lesione legamentosa o meniscale"
+                    "description": "Algia acuta di ginocchio con limitazioni funzionali gravi o blocco articolare in paziente con età inferiore a 65 anni"
+                },
+                {
+                    "urgency": "B", 
+                    "description": "Dolore persistente di ginocchio con sospetta lesione legamentosa ed ecografia negativa o dubbia"
                 },
                 {
                     "urgency": "D",
-                    "description": "Trauma al ginocchio con sintomi persistenti"
+                    "description": "Sospette lesioni tendinee o ligamentose post-traumatiche in pazienti di età inferiore a 65 anni e/o fibrocartilaginee di ginocchio"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione osteocondrale post-traumatica di ginocchio dubbia alla RX"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Stadiazione locale di neoplasia di ginocchio"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospetta neoplasia di ginocchio dopo indagine radiologica di primo livello"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteonecrosi di ginocchio"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Osteomielite di ginocchio"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteocondrite di ginocchio"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Malattia artritica precoce di ginocchio dopo RX negativa ed ecografia/test laboratoristici positivi"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Patologia reumatica di ginocchio"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Algia di ginocchio con limitazioni funzionali in paziente con età superiore a 65 anni"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Sindrome da conflitto articolare di ginocchio"
+                },
+                {
+                    "urgency": "P", 
+                    "description": "Patologia algico-disfunzionale di ginocchio"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Patologie infiammatorie croniche di ginocchio"
                 }
             ],
             "information": "La Risonanza Magnetica del ginocchio è utile per diagnosticare lesioni meniscali e legamentose.",
@@ -439,7 +798,63 @@
             "scenarios": [
                 {
                     "urgency": "B",
-                    "description": "Dolore alla caviglia con sospetta lesione legamentosa o ossea"
+                    "description": "Algia acuta di caviglia con limitazioni funzionali gravi o blocco articolare in paziente con età inferiore a 65 anni"
+                },
+                {
+                    "urgency": "B", 
+                    "description": "Dolore persistente di caviglia con sospetta lesione legamentosa ed ecografia negativa o dubbia"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospette lesioni tendinee o ligamentose post-traumatiche in pazienti di età inferiore a 65 anni e/o fibrocartilaginee di caviglia"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione osteocondrale post-traumatica di caviglia dubbia alla RX"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Stadiazione locale di neoplasia di caviglia"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospetta neoplasia di caviglia dopo indagine radiologica di primo livello"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteonecrosi di caviglia"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Osteomielite di caviglia"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Osteocondrite di caviglia"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Malattia artritica precoce di caviglia dopo RX negativa ed ecografia/test laboratoristici positivi"
+                },
+                {
+                    "urgency": "D", 
+                    "description": "Patologia reumatica di caviglia"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Algia di caviglia con limitazioni funzionali in paziente con età superiore a 65 anni"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Sindrome da conflitto articolare di caviglia"
+                },
+                {
+                    "urgency": "P", 
+                    "description": "Patologia algico-disfunzionale di caviglia"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Patologie infiammatorie croniche di caviglia"
                 }
             ],
             "information": "La Risonanza Magnetica della caviglia è utile per valutare lesioni e patologie articolari.",

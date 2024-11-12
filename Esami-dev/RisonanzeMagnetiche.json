@@ -496,14 +496,6 @@
                 {
                     "urgency": "P",
                     "description": "Patologie infiammatorie croniche di polso"
-                },
-                {
-                    "urgency": "B",
-                    "description": "Sindrome del tunnel carpale con segni neurologici"
-                },
-                {
-                    "urgency": "D",
-                    "description": "Sospetta lesione del nervo mediano"
                 }
             ],
             "information": "La Risonanza Magnetica del polso è utile per valutare strutture ossee, legamentose e nervose.",
@@ -689,14 +681,6 @@
                 {
                     "urgency": "P",
                     "description": "Patologie infiammatorie croniche di anca"
-                },
-                {
-                    "urgency": "B",
-                    "description": "Sospetta displasia dell'anca"
-                },
-                {
-                    "urgency": "D",
-                    "description": "Valutazione protesi d'anca"
                 }
             ],
             "information": "La Risonanza Magnetica dell'anca è utile per valutare strutture ossee, articolari e dei tessuti molli.",

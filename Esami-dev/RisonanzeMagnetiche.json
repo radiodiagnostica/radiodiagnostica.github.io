@@ -61,19 +61,6 @@
                     "urgency": "P",
                     "description": "Sindromi genetiche del sistema nervoso centrale"
                 }
-            ],
-            "information": "La Risonanza Magnetica (RM) è una tecnica diagnostica non invasiva che utilizza campi magnetici e onde radio per creare immagini dettagliate del corpo umano.",
-            "risks": "La Risonanza Magnetica non comporta effetti biologici rilevanti su pazienti privi di controindicazioni. Tuttavia, i pazienti con allergie al gadolinio devono informare il personale sanitario.",
-            "preparation": "È consigliato presentarsi all’esame privi di oggetti metallici. Se è prevista la somministrazione di mezzo di contrasto, è necessario un digiuno di 6 ore.",
-            "papers": [
-                {
-                    "name": "Informativa RM Encefalo",
-                    "url": "https://www.maggioreosp.novara.it/download/informativa-rm-encefalo/?wpdmdl=977&refresh=63de209b3a2811675501723"
-                },
-                {
-                    "name": "Questionario anamnestico",
-                    "url": "https://www.maggioreosp.novara.it/download/questionario-anamnestico-rm/?wpdmdl=966&refresh=637a5307e84cb1668961031"
-                }
             ]
         },
         {
@@ -105,15 +92,6 @@
                     "urgency": "D",
                     "description": "Rachialgia acuta, subacuta, cronica o recidivante con sintomatologia radicolare modesta"
                 }
-            ],
-            "information": "La Risonanza Magnetica della colonna può essere utilizzata per diagnosticare patologie dei dischi intervertebrali, delle vertebre e del midollo spinale.",
-            "risks": "La Risonanza Magnetica è un esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie ai mezzi di contrasto.",
-            "preparation": "Il paziente deve presentarsi senza oggetti metallici e seguire eventuali indicazioni specifiche fornite dal medico.",
-            "papers": [
-                {
-                    "name": "Informativa RM Colonna",
-                    "url": "https://www.maggioreosp.novara.it/download/informativa-rm-colonna/?wpdmdl=978&refresh=63de209c1e8be1675501724"
-                }
             ]
         },
         {
@@ -141,15 +119,6 @@
                     "urgency": "D",
                     "description": "Patologia ostruttiva dell'apparato urinario (uro-RM)"
                 }
-            ],
-            "information": "La Risonanza Magnetica dell’addome superiore consente di studiare morfo-strutturalmente gli organi addominali.",
-            "risks": "L'esame è generalmente sicuro e non invasivo, ma si devono considerare le allergie al mezzo di contrasto.",
-            "preparation": "È consigliato un digiuno di almeno 6 ore e di portare eventuali documenti medici pertinenti.",
-            "papers": [
-                {
-                    "name": "Informativa RM Addome",
-                    "url": "https://www.maggioreosp.novara.it/download/informativa-rm-addome-superiore-con-e-senza-mdc/?wpdmdl=980&refresh=63de209e05cbf1675501726"
-                }
             ]
         },
         {
@@ -173,15 +142,6 @@
                     "urgency": "D",
                     "description": "Endometriosi"
                 }
-            ],
-            "information": "La Risonanza Magnetica dell’addome inferiore è utile per identificare e caratterizzare eventuali lesioni.",
-            "risks": "L'esame è non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
-            "preparation": "Digiuno di almeno 6 ore e portare documentazione medica pertinente.",
-            "papers": [
-                {
-                    "name": "Informativa RM Pelvi",
-                    "url": "https://www.maggioreosp.novara.it/download/informativa-rm-addome-inferiore-e-pelvi/?wpdmdl=981&refresh=63de209f206b41675501727"
-                }
             ]
         },
         {
@@ -204,15 +164,6 @@
                 {
                     "urgency": "P",
                     "description": "Completamento di indagine TC per patologia del collo (es. chemodectoma)"
-                }
-            ],
-            "information": "La Risonanza Magnetica del collo è utile per diagnosticare patologie delle ghiandole salivari e delle strutture circostanti.",
-            "risks": "L'esame è non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie ai mezzi di contrasto.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire eventuali indicazioni specifiche fornite dal medico.",
-            "papers": [
-                {
-                    "name": "Informativa RM Testa-Collo",
-                    "url": "https://www.maggioreosp.novara.it/download/informativa-rm-massiccio-facciale-e-collo/?wpdmdl=979&refresh=63de209d063191675501725"
                 }
             ]
         },
@@ -289,11 +240,7 @@
                     "urgency": "P",
                     "description": "Patologie infiammatorie croniche di spalla"
                 }
-            ],
-            "information": "La Risonanza Magnetica della spalla è utile per studiare lesioni e patologie articolari.",
-            "risks": "Esame non invasivo, ma informare il personale di eventuali allergie ai mezzi di contrasto.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
-            "papers": []
+            ]
         },
         {
             "code": "88.94.5",
@@ -316,11 +263,7 @@
                     "urgency": "B",
                     "description": "Sospetta lesione muscolare o tendinea"
                 }
-            ],
-            "information": "La Risonanza Magnetica dell'arto superiore è utile per diagnosticare lesioni muscolari e tendinee.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma informare il personale di eventuali allergie.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
-            "papers": []
+            ]
         },
         {
             "code": "88.94.6",
@@ -395,11 +338,7 @@
                     "urgency": "P",
                     "description": "Patologie infiammatorie croniche di gomito"
                 }
-            ],
-            "information": "La Risonanza Magnetica del gomito è utile per diagnosticare patologie ossee e legamentose.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma informare il personale di eventuali allergie.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
-            "papers": []
+            ]
         },
         {
             "code": "88.94.7",
@@ -418,11 +357,7 @@
                     "urgency": "B",
                     "description": "Algia acuta di avambraccio con sospetta lesione muscolare"
                 }
-            ],
-            "information": "La Risonanza Magnetica dell'avambraccio è utile per studiare lesioni muscolari e tendinee.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma informare il personale di eventuali allergie.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
-            "papers": []
+            ]
         },
         {
             "code": "88.94.8",
@@ -497,11 +432,7 @@
                     "urgency": "P",
                     "description": "Patologie infiammatorie croniche di polso"
                 }
-            ],
-            "information": "La Risonanza Magnetica del polso è utile per valutare strutture ossee, legamentose e nervose.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
-            "papers": []
+            ]
         },
         {
             "code": "88.94.9",
@@ -580,11 +511,7 @@
                     "urgency": "D",
                     "description": "Sospetta lesione dei tendini flessori o estensori"
                 }
-            ],
-            "information": "La Risonanza Magnetica della mano è utile per valutare strutture ossee, articolari, tendinee e nervose.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
-            "papers": []
+            ]
         },
         {
             "code": "88.94.A",
@@ -607,11 +534,7 @@
                     "urgency": "D",
                     "description": "Dolore pelvico persistente con sospetta patologia ossea"
                 }
-            ],
-            "information": "La Risonanza Magnetica della pelvi ossea è utile per valutare le condizioni delle ossa e delle strutture circostanti.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie ai mezzi di contrasto.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
-            "papers": []
+            ]
         },
         {
             "code": "88.94.A",
@@ -682,11 +605,7 @@
                     "urgency": "P",
                     "description": "Patologie infiammatorie croniche di anca"
                 }
-            ],
-            "information": "La Risonanza Magnetica dell'anca è utile per valutare strutture ossee, articolari e dei tessuti molli.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
-            "papers": []
+            ]
         },
         {
             "code": "88.94.B",
@@ -761,11 +680,7 @@
                     "urgency": "P",
                     "description": "Patologie infiammatorie croniche di ginocchio"
                 }
-            ],
-            "information": "La Risonanza Magnetica del ginocchio è utile per diagnosticare lesioni meniscali e legamentose.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
-            "papers": []
+            ]
         },
         {
             "code": "88.94.F",
@@ -840,11 +755,7 @@
                     "urgency": "P",
                     "description": "Patologie infiammatorie croniche di caviglia"
                 }
-            ],
-            "information": "La Risonanza Magnetica della caviglia è utile per valutare lesioni e patologie articolari.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
-            "papers": []
+            ]
         },
         {
             "code": "88.94.G",
@@ -863,11 +774,7 @@
                     "urgency": "B",
                     "description": "Dolore al piede con sospetta lesione muscolare o ossea"
                 }
-            ],
-            "information": "La Risonanza Magnetica del piede è utile per diagnosticare lesioni e patologie muscolari e ossee.",
-            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
-            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
-            "papers": []
+            ]
         }
     ]
 }

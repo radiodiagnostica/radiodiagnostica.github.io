@@ -278,7 +278,7 @@
             "code": "88.94.6",
             "type": "MRI",
             "title": {
-                "long": "Elbow MRI",
+                "long": "Risonanza magnetica del gomito",
                 "short": "MRI ELBOW"
             },
             "color": "#FF0000",
@@ -425,7 +425,7 @@
             "papers": []
         },
         {
-            "code": "88.94.C",
+            "code": "88.94.F",
             "type": "MRI",
             "title": {
                 "long": "Risonanza magnetica della caviglia",
@@ -448,7 +448,7 @@
             "papers": []
         },
         {
-            "code": "88.94.D",
+            "code": "88.94.G",
             "type": "MRI",
             "title": {
                 "long": "Risonanza magnetica del piede",

@@ -1,0 +1,474 @@
+{
+    "examinations": [
+        {
+            "code": "88.91.2",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica dell'encefalo",
+                "short": "MRI BRAIN"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Include encefalo, tronco encefalico, giunzione cranio-spinale e relativo distretto vascolare. Con e senza contrasto.",
+            "locations": ["brain"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "U",
+                    "description": "Sospetta lesione espansiva intracranica in paziente clinicamente sintomatico"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Idrocefalo (dopo TC non conclusiva)"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Patologia espansiva orbitaria"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Prima diagnosi di sclerosi multipla o altre malattie demielinizzanti"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Primo episodio di epilessia"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Tumori di cavità orale e lingua"
+                },
+                {
+                    "urgency": "U",
+                    "description": "Arresto dello sviluppo psico-motorio"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Cefalea continua di nuova insorgenza non sensibile a terapie, in assenza di segni o sintomi localizzanti, dopo TC non conclusiva"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Prima diagnosi di morbo di Parkinson (preferibilmente senza contrasto)"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospetto neurinoma del nervo acustico"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospetta patologia espansiva ipofisaria"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Sindromi genetiche del sistema nervoso centrale"
+                }
+            ],
+            "information": "La Risonanza Magnetica (RM) è una tecnica diagnostica non invasiva che utilizza campi magnetici e onde radio per creare immagini dettagliate del corpo umano.",
+            "risks": "La Risonanza Magnetica non comporta effetti biologici rilevanti su pazienti privi di controindicazioni. Tuttavia, i pazienti con allergie al gadolinio devono informare il personale sanitario.",
+            "preparation": "È consigliato presentarsi all’esame privi di oggetti metallici. Se è prevista la somministrazione di mezzo di contrasto, è necessario un digiuno di 6 ore.",
+            "papers": [
+                {
+                    "name": "Informativa RM Encefalo",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-rm-encefalo/?wpdmdl=977&refresh=63de209b3a2811675501723"
+                },
+                {
+                    "name": "Questionario anamnestico",
+                    "url": "https://www.maggioreosp.novara.it/download/questionario-anamnestico-rm/?wpdmdl=966&refresh=637a5307e84cb1668961031"
+                }
+            ]
+        },
+        {
+            "code": "88.93.6",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica della colonna completa",
+                "short": "MRI SPINE"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica del rachide cervicale, dorsale, lombo-sacrale e sacro-coccigeo.",
+            "locations": ["fullSpine"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Rachialgia acuta o cronica riacutizzata in paziente con grave e persistente sintomatologia radicolare"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Dolore rachideo e/o sintomatologia di tipo neurologico, resistente alla terapia, della durata di almeno due settimane"
+                },
+                {
+                    "urgency": "U",
+                    "description": "Traumi recenti e fratture da compressione"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Rachialgia acuta, subacuta, cronica o recidivante con sintomatologia radicolare modesta"
+                }
+            ],
+            "information": "La Risonanza Magnetica della colonna può essere utilizzata per diagnosticare patologie dei dischi intervertebrali, delle vertebre e del midollo spinale.",
+            "risks": "La Risonanza Magnetica è un esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie ai mezzi di contrasto.",
+            "preparation": "Il paziente deve presentarsi senza oggetti metallici e seguire eventuali indicazioni specifiche fornite dal medico.",
+            "papers": [
+                {
+                    "name": "Informativa RM Colonna",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-rm-colonna/?wpdmdl=978&refresh=63de209c1e8be1675501724"
+                }
+            ]
+        },
+        {
+            "code": "88.95.1",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica dell'addome superiore",
+                "short": "MRI UPPER ABD"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Include fegato e vie biliari, milza, pancreas, reni e surreni, retroperitoneo e relativo distretto vascolare.",
+            "locations": ["upperAbdomen"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Quadro clinico-laboratoristico di ittero ostruttivo dopo ecografia non conclusiva"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Dolore persistente dopo colecistectomia (colangio-RM)"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Patologia ostruttiva dell'apparato urinario (uro-RM)"
+                }
+            ],
+            "information": "La Risonanza Magnetica dell’addome superiore consente di studiare morfo-strutturalmente gli organi addominali.",
+            "risks": "L'esame è generalmente sicuro e non invasivo, ma si devono considerare le allergie al mezzo di contrasto.",
+            "preparation": "È consigliato un digiuno di almeno 6 ore e di portare eventuali documenti medici pertinenti.",
+            "papers": [
+                {
+                    "name": "Informativa RM Addome",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-rm-addome-superiore-con-e-senza-mdc/?wpdmdl=980&refresh=63de209e05cbf1675501726"
+                }
+            ]
+        },
+        {
+            "code": "88.95.5",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica dell'addome inferiore",
+                "short": "MRI LOWER ABD"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Include il relativo distretto vascolare.",
+            "locations": ["lowerAbdomen", "pelvis"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Sospetto di neoplasia maligna in sede pelvica dopo esame diagnostico di primo livello"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Endometriosi"
+                }
+            ],
+            "information": "La Risonanza Magnetica dell’addome inferiore è utile per identificare e caratterizzare eventuali lesioni.",
+            "risks": "L'esame è non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
+            "preparation": "Digiuno di almeno 6 ore e portare documentazione medica pertinente.",
+            "papers": [
+                {
+                    "name": "Informativa RM Pelvi",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-rm-addome-inferiore-e-pelvi/?wpdmdl=981&refresh=63de209f206b41675501727"
+                }
+            ]
+        },
+        {
+            "code": "88.91.7",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica del collo",
+                "short": "MRI NECK"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Include faringe, laringe, parotidi-ghiandole salivari, tiroide, paratiroidi e relativo distretto vascolare.",
+            "locations": ["neck"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Sospetta neoplasia maligna del tratto rino-oro-ipofaringeo o delle ghiandole salivari, dopo ecografia e TC non conclusive"
+                },
+                {
+                    "urgency": "P",
+                    "description": "Completamento di indagine TC per patologia del collo (es. chemodectoma)"
+                }
+            ],
+            "information": "La Risonanza Magnetica del collo è utile per diagnosticare patologie delle ghiandole salivari e delle strutture circostanti.",
+            "risks": "L'esame è non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie ai mezzi di contrasto.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire eventuali indicazioni specifiche fornite dal medico.",
+            "papers": [
+                {
+                    "name": "Informativa RM Testa-Collo",
+                    "url": "https://www.maggioreosp.novara.it/download/informativa-rm-massiccio-facciale-e-collo/?wpdmdl=979&refresh=63de209d063191675501725"
+                }
+            ]
+        },
+        {
+            "code": "88.94.4",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica della spalla",
+                "short": "MRI SHOULDER"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica della spalla.",
+            "locations": ["shoulder"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Algia acuta di spalla con limitazioni funzionali gravi o blocco articolare in paziente con età inferiore a 65 anni"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Dolore persistente di spalla con sospetta lesione legamentosa ed ecografia negativa o dubbia"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Sospette lesioni tendinee o ligamentose post-traumatiche"
+                }
+            ],
+            "information": "La Risonanza Magnetica della spalla è utile per studiare lesioni e patologie articolari.",
+            "risks": "Esame non invasivo, ma informare il personale di eventuali allergie ai mezzi di contrasto.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
+            "papers": []
+        },
+        {
+            "code": "88.94.5",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica del braccio",
+                "short": "MRI ARM"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica dell'arto superiore.",
+            "locations": ["arm"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Algia acuta di braccio con limitazioni funzionali"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione muscolare o tendinea"
+                }
+            ],
+            "information": "La Risonanza Magnetica dell'arto superiore è utile per diagnosticare lesioni muscolari e tendinee.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma informare il personale di eventuali allergie.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
+            "papers": []
+        },
+        {
+            "code": "88.94.6",
+            "type": "MRI",
+            "title": {
+                "long": "Elbow MRI",
+                "short": "MRI ELBOW"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica del gomito.",
+            "locations": ["elbow"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Dolore persistente al gomito con sospetta lesione legamentosa"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione ossea o cartilaginea"
+                }
+            ],
+            "information": "La Risonanza Magnetica del gomito è utile per diagnosticare patologie ossee e legamentose.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma informare il personale di eventuali allergie.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
+            "papers": []
+        },
+        {
+            "code": "88.94.7",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica dell'avambraccio",
+                "short": "MRI FOREARM"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica dell'avambraccio.",
+            "locations": ["forearm"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Algia acuta di avambraccio con sospetta lesione muscolare"
+                }
+            ],
+            "information": "La Risonanza Magnetica dell'avambraccio è utile per studiare lesioni muscolari e tendinee.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma informare il personale di eventuali allergie.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
+            "papers": []
+        },
+        {
+            "code": "88.94.8",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica del polso",
+                "short": "MRI WRIST"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica del polso.",
+            "locations": ["wrist"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Dolore persistente al polso con sospetta lesione tendinea o legamentosa"
+                }
+            ],
+            "information": "La Risonanza Magnetica del polso è utile per diagnosticare lesioni e patologie articolari.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma informare il personale di eventuali allergie.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
+            "papers": []
+        },
+        {
+            "code": "88.94.9",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica della mano",
+                "short": "MRI HAND"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica della mano.",
+            "locations": ["hand"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Dolore persistente alla mano con sospetta lesione"
+                }
+            ],
+            "information": "La Risonanza Magnetica della mano è utile per diagnosticare lesioni e patologie muscolari.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma informare il personale di eventuali allergie.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
+            "papers": []
+        },
+        {
+            "code": "88.94.A",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica del bacino",
+                "short": "MRI BONY PELVIS"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica della pelvi ossea.",
+            "locations": ["pelvis"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione ossea o tumore nella regione pelvica"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Dolore pelvico persistente con sospetta patologia ossea"
+                }
+            ],
+            "information": "La Risonanza Magnetica della pelvi ossea è utile per valutare le condizioni delle ossa e delle strutture circostanti.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie ai mezzi di contrasto.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
+            "papers": []
+        },
+        {
+            "code": "88.94.B",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica del ginocchio",
+                "short": "MRI KNEE"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica del ginocchio.",
+            "locations": ["knee"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Dolore al ginocchio con sospetta lesione legamentosa o meniscale"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Trauma al ginocchio con sintomi persistenti"
+                }
+            ],
+            "information": "La Risonanza Magnetica del ginocchio è utile per diagnosticare lesioni meniscali e legamentose.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
+            "papers": []
+        },
+        {
+            "code": "88.94.C",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica della caviglia",
+                "short": "MRI ANKLE"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica della caviglia.",
+            "locations": ["ankle"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Dolore alla caviglia con sospetta lesione legamentosa o ossea"
+                }
+            ],
+            "information": "La Risonanza Magnetica della caviglia è utile per valutare lesioni e patologie articolari.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
+            "papers": []
+        },
+        {
+            "code": "88.94.D",
+            "type": "MRI",
+            "title": {
+                "long": "Risonanza magnetica del piede",
+                "short": "MRI FOOT"
+            },
+            "color": "#FF0000",
+            "systemImage": "arrow.up.arrow.down",
+            "details": "Risonanza magnetica del piede.",
+            "locations": ["foot"],
+            "contrastModes": ["without", "with"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Dolore al piede con sospetta lesione muscolare o ossea"
+                }
+            ],
+            "information": "La Risonanza Magnetica del piede è utile per diagnosticare lesioni e patologie muscolari e ossee.",
+            "risks": "Esame non invasivo e generalmente sicuro, ma è importante informare il personale di eventuali allergie.",
+            "preparation": "Presentarsi senza oggetti metallici e seguire le indicazioni del medico.",
+            "papers": []
+        }
+    ]
+}

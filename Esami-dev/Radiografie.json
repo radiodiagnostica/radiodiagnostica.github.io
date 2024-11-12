@@ -415,6 +415,115 @@
             "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
             "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
             "papers": []
+        },
+        {
+            "code": "88.23.3",
+            "type": "X-ray",
+            "title": {
+                "long": "Radiografia della spalla",
+                "short": "X-ray SHOULDER"
+            },
+            "color": "#FFA500",
+            "systemImage": "rays",
+            "details": "",
+            "locations": ["shoulder"],
+            "contrastModes": ["without"],
+            "scenarios": [
+                {
+                    "urgency": "U",
+                    "description": "Dolore alla spalla persistente dopo trauma lieve"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Dolore alla spalla persistente e resistente alla terapia dopo 3 settimane"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta artrite settica o infiammatoria della spalla"
+                }
+            ],
+            "information": "**Introduzione** La radiografia della spalla è utilizzata per diagnosticare lesioni e condizioni infiammatorie.",
+            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
+            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
+            "papers": []
+        },
+        {
+            "code": "87.11.3",
+            "type": "X-ray",
+            "title": {
+                "long": "Ortopanoramica (OPT)",
+                "short": "OPT"
+            },
+            "color": "#FFA500",
+            "systemImage": "rays",
+            "details": "Ortopanoramica delle arcate dentarie complete superiore e inferiore (OPT)",
+            "locations": ["odontostomatologic"],
+            "contrastModes": ["without"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione ossea o dentale traumatica"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione ossea o dentale flogistica"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Ortopantomografia per carie, disodontiasi, controlli odontoiatrici"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Studio dentario pre-implantologico, valutazione ortodontica"
+                }
+            ],
+            "information": "**Introduzione** L'ortopanoramica è un'indagine radiologica che fornisce una visione panoramica delle arcate dentarie.",
+            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
+            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
+            "papers": []
+        },
+        {
+            "code": "87.37.1",
+            "type": "X-ray",
+            "title": {
+                "long": "Mammografia bilaterale",
+                "short": "Mammography"
+            },
+            "color": "#FFA500",
+            "systemImage": "rays",
+            "details": "Mammografia bilaterale (87.37.1) o monolaterale (87.37.2)",
+            "locations": ["breast"],
+            "contrastModes": ["without"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Accertamenti in pazienti oncologici con neoplasia primitiva misconosciuta"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Nodulo/addensamento mammario di recente riscontro clinicamente sospetto"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Secrezione ematica dal capezzolo dopo esame citologico del secreto"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Nodulo/addensamento mammario di recente riscontro clinicamente non sospetto"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Paziente di età superiore a 40 anni ad elevato rischio eredo/familiare per neoplasia mammaria"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Prevenzione secondaria di neoplasia mammaria in paziente di età fra 40 e 49 anni o superiore a 70 anni asintomatica"
+                }
+            ],
+            "information": "**Introduzione** La mammografia è un'indagine radiologica utilizzata per la diagnosi precoce del cancro al seno.",
+            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
+            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici e informare il personale sanitario in caso di gravidanza o allattamento.",
+            "papers": []
         }
     ]
 }

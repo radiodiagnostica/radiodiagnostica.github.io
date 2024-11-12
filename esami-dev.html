@@ -130,6 +130,12 @@
                     filterScenarios(combinedData, searchTerm);
                 }
             });
+
+            function showScenarios(location, combinedData) {
+                // Clear search input and show scenarios for specific location
+                searchInput.value = '';
+                filterScenarios(combinedData, formatLocation(location).toLowerCase());
+            }
             
             function filterScenarios(combinedData, searchTerm) {
                 // Clear previous scenarios

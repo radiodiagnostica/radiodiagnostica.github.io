@@ -37,15 +37,6 @@
                     "urgency": "D",
                     "description": "Sospetta patologia interstiziale polmonare diffusa"
                 }
-            ],
-            "information": "**Introduzione** La radiografia tradizionale è un’indagine che utilizza i raggi X (radiazioni ionizzanti) per studiare diverse strutture anatomiche (ossa, articolazioni, polmoni). Poiché si tratta di un esame che espone a radiazioni ionizzanti se ne deve evitare l’utilizzo in assenza di un’indicazione clinica specifica, inoltre le donne in età fertile devono escludere gravidanze in corso. L’esame RX viene utilizzato come prima indagine nel sospetto diagnostico delle patologie dell’apparato respiratorio, osteo-articolare ed in alcune patologie addominali.",
-            "risks": "**Radiazioni ionizzanti** Poiché questa indagine utilizza raggi X (radiazioni ionizzanti) per studiare diverse strutture anatomiche, se ne deve evitare l'uso in assenza di una indicazione clinica specifica. È noto che le radiazioni ionizzanti possono causare alterazioni a livello delle cellule, in particolare di quelle che si trovano in una attività di riproduzione. Va però sottolineato come, nella maggior parte dei casi, gli esami radiologici siano effettuabili in condizioni di ragionevole sicurezza in rapporto alla quantità di radiazioni, che è tenuta tanto bassa quanto ragionevolmente ottenibile.",
-            "preparation": "**Prima dell’esame:** Non occorre alcuna preparazione. È opportuno presentarsi all’esame privi di oggetti metallici e/o monili; altrimenti è necessario rimuoverli prima dell’esecuzione dello stesso poiché potrebbero inficiare il risultato dell’esame. Si fa presente che in caso di smarrimento degli stessi l’azienda non risponde di eventuali reclami. **Durante l’esame:** Con l’ausilio del personale sanitario assumere la posizione consona all’esecuzione dell’esame e attenersi alle indicazioni che verranno fornite durante lo stesso. Riferire immediatamente al personale sanitario qualsiasi malessere che compaia durante la procedura. **Dopo l’esame:** Il paziente può lasciare il reparto.",
-            "papers": [
-                {
-                    "name": "Informativa",
-                    "url": "https://www.maggioreosp.novara.it/download/informativa-esame-radiologico-convenzionale/?wpdmdl=969&refresh=637a6299381771668965017"
-                }
             ]
         },
         {
@@ -69,11 +60,7 @@
                     "urgency": "B",
                     "description": "Dolore alla caviglia persistente e resistente alla terapia dopo 3 settimane"
                 }
-            ],
-            "information": "**Introduzione** La radiografia tradizionale è un’indagine che utilizza i raggi X per studiare la caviglia e le strutture ossee circostanti.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
         },
         {
             "code": "88.28.2",
@@ -96,11 +83,7 @@
                     "urgency": "B",
                     "description": "Dolore al piede persistente e resistente alla terapia dopo 3 settimane"
                 }
-            ],
-            "information": "**Introduzione** La radiografia tradizionale è utilizzata per studiare il piede e le sue strutture ossee.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
         },
         {
             "code": "87.22",
@@ -131,11 +114,7 @@
                     "urgency": "B",
                     "description": "Scoliosi, dismorfismi scheletrici della colonna cervicale"
                 }
-            ],
-            "information": "**Introduzione** La radiografia della colonna cervicale è utilizzata per diagnosticare lesioni e deformità.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
         },
         {
             "code": "87.23",
@@ -166,11 +145,7 @@
                     "urgency": "B",
                     "description": "Scoliosi, dismorfismi scheletrici della colonna dorsale"
                 }
-            ],
-            "information": "**Introduzione** La radiografia della colonna dorsale è utilizzata per diagnosticare lesioni e deformità nella regione dorsale della colonna vertebrale.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
         },
         {
             "code": "87.24",
@@ -201,11 +176,7 @@
                     "urgency": "B",
                     "description": "Scoliosi, dismorfismi scheletrici della colonna lombare"
                 }
-            ],
-            "information": "**Introduzione** La radiografia della colonna lombare è utilizzata per diagnosticare lesioni e deformità nella regione lombare della colonna vertebrale.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
         },
         {
             "code": "87.24.6",
@@ -232,11 +203,7 @@
                     "urgency": "B",
                     "description": "Scoliosi, dismorfismi scheletrici della colonna sacro-coccigea"
                 }
-            ],
-            "information": "**Introduzione** La radiografia della colonna sacro-coccigea è utilizzata per diagnosticare lesioni e deformità nella regione sacro-coccigea.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
         },
         {
             "code": "88.27.1",
@@ -259,11 +226,7 @@
                     "urgency": "B",
                     "description": "Dolore al femore persistente e resistente alla terapia dopo 3 settimane"
                 }
-            ],
-            "information": "**Introduzione** La radiografia del femore è utilizzata per diagnosticare lesioni e fratture nella regione del femore.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
         },
         {
             "code": "88.27.2",
@@ -290,11 +253,7 @@
                     "urgency": "B",
                     "description": "Sospetta artrite settica o infiammatoria del ginocchio"
                 }
-            ],
-            "information": "**Introduzione** La radiografia del ginocchio è utilizzata per diagnosticare lesioni, fratture e condizioni infiammatorie.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
         },
         {
             "code": "88.27.3",
@@ -317,11 +276,7 @@
                     "urgency": "B",
                     "description": "Dolore alla gamba persistente e resistente alla terapia dopo 3 settimane"
                 }
-            ],
-            "information": "**Introduzione** La radiografia della gamba è utilizzata per diagnosticare lesioni e fratture nella regione della gamba.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
         },
         {
             "code": "88.23.1",
@@ -348,11 +303,7 @@
                     "urgency": "B",
                     "description": "Sospetta artrite settica o infiammatoria del polso"
                 }
-            ],
-            "information": "**Introduzione** La radiografia del polso è utilizzata per diagnosticare lesioni e condizioni infiammatorie.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
         },
         {
             "code": "88.23.2",
@@ -379,11 +330,7 @@
                     "urgency": "B",
                     "description": "Sospetta artrite settica o infiammatoria della mano"
                 }
-            ],
-            "information": "**Introduzione** La radiografia della mano è utilizzata per diagnosticare lesioni e condizioni infiammatorie.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
         },
         {
             "code": "88.23.3",
@@ -410,11 +357,104 @@
                     "urgency": "B",
                     "description": "Sospetta artrite settica o infiammatoria del gomito"
                 }
-            ],
-            "information": "**Introduzione** La radiografia del gomito è utilizzata per diagnosticare lesioni e condizioni infiammatorie.",
-            "risks": "**Radiazioni ionizzanti** L'uso di raggi X comporta rischi legati all'esposizione a radiazioni ionizzanti, che devono essere considerati in relazione ai benefici diagnostici.",
-            "preparation": "**Preparazione:** Non è necessaria una preparazione specifica, ma è consigliato presentarsi senza oggetti metallici.",
-            "papers": []
+            ]
+        },
+        {
+            "code": "88.23.3",
+            "type": "X-ray",
+            "title": {
+                "long": "Radiografia della spalla",
+                "short": "X-ray SHOULDER"
+            },
+            "color": "#FFA500",
+            "systemImage": "rays",
+            "details": "",
+            "locations": ["shoulder"],
+            "contrastModes": ["without"],
+            "scenarios": [
+                {
+                    "urgency": "U",
+                    "description": "Dolore alla spalla persistente dopo trauma lieve"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Dolore alla spalla persistente e resistente alla terapia dopo 3 settimane"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta artrite settica o infiammatoria della spalla"
+                }
+            ]
+        },
+        {
+            "code": "87.11.3",
+            "type": "X-ray",
+            "title": {
+                "long": "Ortopanoramica (OPT)",
+                "short": "OPT"
+            },
+            "color": "#FFA500",
+            "systemImage": "rays",
+            "details": "Ortopanoramica delle arcate dentarie complete superiore e inferiore (OPT)",
+            "locations": ["odontostomatologic"],
+            "contrastModes": ["without"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione ossea o dentale traumatica"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Sospetta lesione ossea o dentale flogistica"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Ortopantomografia per carie, disodontiasi, controlli odontoiatrici"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Studio dentario pre-implantologico, valutazione ortodontica"
+                }
+            ]
+        },
+        {
+            "code": "87.37.1",
+            "type": "X-ray",
+            "title": {
+                "long": "Mammografia bilaterale",
+                "short": "Mammography"
+            },
+            "color": "#FFA500",
+            "systemImage": "rays",
+            "details": "Mammografia bilaterale (87.37.1) o monolaterale (87.37.2)",
+            "locations": ["breast"],
+            "contrastModes": ["without"],
+            "scenarios": [
+                {
+                    "urgency": "B",
+                    "description": "Accertamenti in pazienti oncologici con neoplasia primitiva misconosciuta"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Nodulo/addensamento mammario di recente riscontro clinicamente sospetto"
+                },
+                {
+                    "urgency": "B",
+                    "description": "Secrezione ematica dal capezzolo dopo esame citologico del secreto"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Nodulo/addensamento mammario di recente riscontro clinicamente non sospetto"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Paziente di età superiore a 40 anni ad elevato rischio eredo/familiare per neoplasia mammaria"
+                },
+                {
+                    "urgency": "D",
+                    "description": "Prevenzione secondaria di neoplasia mammaria in paziente di età fra 40 e 49 anni o superiore a 70 anni asintomatica"
+                }
+            ]
         }
     ]
 }
